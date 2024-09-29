@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.SignalR", "Authentication.SignalR\Authentication.SignalR.csproj", "{1DB5F42C-C018-4778-A072-C524E36AE204}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{95AFE4FB-CB2D-4433-9E46-9C0DFF010E66}"
+	ProjectSection(SolutionItems) = preProject
+		Authentication.SignalR.sln.licenseheader = Authentication.SignalR.sln.licenseheader
+		azure-pipelines.yml = azure-pipelines.yml
+		CONTRIBUTING.txt = CONTRIBUTING.txt
+		docfx.json = docfx.json
+		GitVersion.yml = GitVersion.yml
+		icon.png = icon.png
+		LICENSE-AGPLV3.txt = LICENSE-AGPLV3.txt
+		LICENSE-PROPRIETARY.txt = LICENSE-PROPRIETARY.txt
+		LICENSE.txt = LICENSE.txt
+		PRIVACY.txt = PRIVACY.txt
+		README.md = README.md
+		TERMS.txt = TERMS.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.SignalR.Test", "Authentication.SignalR.Test\Authentication.SignalR.Test.csproj", "{C630A8E8-AD69-4898-8B50-2CCD7CA58B5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DB5F42C-C018-4778-A072-C524E36AE204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB5F42C-C018-4778-A072-C524E36AE204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB5F42C-C018-4778-A072-C524E36AE204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB5F42C-C018-4778-A072-C524E36AE204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C630A8E8-AD69-4898-8B50-2CCD7CA58B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C630A8E8-AD69-4898-8B50-2CCD7CA58B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C630A8E8-AD69-4898-8B50-2CCD7CA58B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C630A8E8-AD69-4898-8B50-2CCD7CA58B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4917FDD5-F27A-41DA-AFD1-B0736CE3F2BB}
+	EndGlobalSection
+EndGlobal
